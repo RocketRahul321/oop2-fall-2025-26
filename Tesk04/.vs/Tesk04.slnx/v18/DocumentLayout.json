@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\developer\\oop2-fall-2025-26\\Tesk04\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{66B51D0A-C18B-46FA-A14C-4ECF0A965A6A}|Tesk04\\Tesk04.csproj|d:\\developer\\oop2-fall-2025-26\\tesk04\\tesk04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66B51D0A-C18B-46FA-A14C-4ECF0A965A6A}|Tesk04\\Tesk04.csproj|solutionrelative:tesk04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\developer\\oop2-fall-2025-26\\Tesk04\\Tesk04\\Program.cs",
+              "RelativeDocumentMoniker": "Tesk04\\Program.cs",
+              "ToolTip": "D:\\developer\\oop2-fall-2025-26\\Tesk04\\Tesk04\\Program.cs",
+              "RelativeToolTip": "Tesk04\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T08:07:43.691Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

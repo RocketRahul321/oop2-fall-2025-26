@@ -1,0 +1,15 @@
+D:\developer\oop2-fall-2025-26\Tesk04\Tesk04\bin\Debug\net9.0\Tesk04.exe
+D:\developer\oop2-fall-2025-26\Tesk04\Tesk04\bin\Debug\net9.0\Tesk04.deps.json
+D:\developer\oop2-fall-2025-26\Tesk04\Tesk04\bin\Debug\net9.0\Tesk04.runtimeconfig.json
+D:\developer\oop2-fall-2025-26\Tesk04\Tesk04\bin\Debug\net9.0\Tesk04.dll
+D:\developer\oop2-fall-2025-26\Tesk04\Tesk04\bin\Debug\net9.0\Tesk04.pdb
+D:\developer\oop2-fall-2025-26\Tesk04\Tesk04\obj\Debug\net9.0\Tesk04.GeneratedMSBuildEditorConfig.editorconfig
+D:\developer\oop2-fall-2025-26\Tesk04\Tesk04\obj\Debug\net9.0\Tesk04.AssemblyInfoInputs.cache
+D:\developer\oop2-fall-2025-26\Tesk04\Tesk04\obj\Debug\net9.0\Tesk04.AssemblyInfo.cs
+D:\developer\oop2-fall-2025-26\Tesk04\Tesk04\obj\Debug\net9.0\Tesk04.csproj.CoreCompileInputs.cache
+D:\developer\oop2-fall-2025-26\Tesk04\Tesk04\obj\Debug\net9.0\Tesk04.sourcelink.json
+D:\developer\oop2-fall-2025-26\Tesk04\Tesk04\obj\Debug\net9.0\Tesk04.dll
+D:\developer\oop2-fall-2025-26\Tesk04\Tesk04\obj\Debug\net9.0\refint\Tesk04.dll
+D:\developer\oop2-fall-2025-26\Tesk04\Tesk04\obj\Debug\net9.0\Tesk04.pdb
+D:\developer\oop2-fall-2025-26\Tesk04\Tesk04\obj\Debug\net9.0\Tesk04.genruntimeconfig.cache
+D:\developer\oop2-fall-2025-26\Tesk04\Tesk04\obj\Debug\net9.0\ref\Tesk04.dll

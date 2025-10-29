@@ -1,0 +1,15 @@
+D:\developer\oop2-fall-2025-26\Task02\Task02\bin\Debug\net9.0\Task02.exe
+D:\developer\oop2-fall-2025-26\Task02\Task02\bin\Debug\net9.0\Task02.deps.json
+D:\developer\oop2-fall-2025-26\Task02\Task02\bin\Debug\net9.0\Task02.runtimeconfig.json
+D:\developer\oop2-fall-2025-26\Task02\Task02\bin\Debug\net9.0\Task02.dll
+D:\developer\oop2-fall-2025-26\Task02\Task02\bin\Debug\net9.0\Task02.pdb
+D:\developer\oop2-fall-2025-26\Task02\Task02\obj\Debug\net9.0\Task02.GeneratedMSBuildEditorConfig.editorconfig
+D:\developer\oop2-fall-2025-26\Task02\Task02\obj\Debug\net9.0\Task02.AssemblyInfoInputs.cache
+D:\developer\oop2-fall-2025-26\Task02\Task02\obj\Debug\net9.0\Task02.AssemblyInfo.cs
+D:\developer\oop2-fall-2025-26\Task02\Task02\obj\Debug\net9.0\Task02.csproj.CoreCompileInputs.cache
+D:\developer\oop2-fall-2025-26\Task02\Task02\obj\Debug\net9.0\Task02.sourcelink.json
+D:\developer\oop2-fall-2025-26\Task02\Task02\obj\Debug\net9.0\Task02.dll
+D:\developer\oop2-fall-2025-26\Task02\Task02\obj\Debug\net9.0\refint\Task02.dll
+D:\developer\oop2-fall-2025-26\Task02\Task02\obj\Debug\net9.0\Task02.pdb
+D:\developer\oop2-fall-2025-26\Task02\Task02\obj\Debug\net9.0\Task02.genruntimeconfig.cache
+D:\developer\oop2-fall-2025-26\Task02\Task02\obj\Debug\net9.0\ref\Task02.dll
