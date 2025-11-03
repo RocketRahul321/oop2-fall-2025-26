@@ -2,9 +2,10 @@
 
        int count = 0;
 
-        string opinion;
+    string opinion;
 
-        do
+
+do
         {
             Console.WriteLine("Enter first number:");
 
@@ -18,7 +19,9 @@
 
             string operation = Console.ReadLine();
 
-            switch (operation)
+            opinion = Console.ReadLine();
+
+    switch (operation)
             {
                 case "+":
                     Console.WriteLine("Result: " + (value1 + value2));
@@ -49,9 +52,9 @@
 
             count++;
             Console.WriteLine("Do you want to continue? (yes/no)");
-            opinion = Console.ReadLine().ToLower();
+            
 
-        } while (opinion == "yes");
+        } while (opinion.ToLower() == "yes");
 
         Console.WriteLine("End of program. You performed " + count + " calculations.");
     
