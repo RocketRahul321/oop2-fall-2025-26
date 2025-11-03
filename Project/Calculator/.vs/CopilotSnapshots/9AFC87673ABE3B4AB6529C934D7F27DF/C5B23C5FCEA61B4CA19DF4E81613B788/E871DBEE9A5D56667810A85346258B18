@@ -1,0 +1,71 @@
+﻿using System;
+
+int count = 0;
+string? input;
+
+do
+{
+    Console.Write("Enter first number: ");
+    input = Console.ReadLine();
+    if (!double.TryParse(input, out double value1))
+    {
+        Console.WriteLine("Invalid number. Please try again.");
+        continue;
+    }
+
+    Console.Write("Enter second number: ");
+    input = Console.ReadLine();
+    if (!double.TryParse(input, out double value2))
+    {
+        Console.WriteLine("Invalid number. Please try again.");
+        continue;
+    }
+
+    Console.Write("Enter operation (+, -, *, /): ");
+    string? operation = Console.ReadLine();
+    if (string.IsNullOrWhiteSpace(operation))
+    {
+        Console.WriteLine("Invalid operation");
+    }
+    else
+    {
+        switch (operation.Trim())
+        {
+            case "+":
+                Console.WriteLine($"Result: {value1 + value2}");
+                break;
+            case "-":
+                Console.WriteLine($"Result: {value1 - value2}");
+                break;
+            case "*":
+            case "x":
+            case "X":
+                Console.WriteLine($"Result: {value1 * value2}");
+                break;
+            case "/":
+                if (value2 != 0)
+                {
+                    Console.WriteLine($"Result: {value1 / value2}");
+                }
+                else
+                {
+                    Console.WriteLine("Error: Division by zero");
+                }
+                break;
+            default:
+                Console.WriteLine("Invalid operation");
+                break;
+        }
+    }
+
+    count++;
+
+    Console.Write("Do you want to perform another calculation? (y/n): ");
+    input = Console.ReadLine();
+
+} while (!string.IsNullOrEmpty(input) && input.Trim().StartsWith("y", StringComparison.OrdinalIgnoreCase));
+
+Console.WriteLine($"Total calculations performed: {count}");
+
+
+

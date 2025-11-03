@@ -1,0 +1,44 @@
+﻿Console.WriteLine("Enter two number:);
+
+//double value1 = Convert.ToDouble(Console.ReadLine() ;
+//double value1 = Convert.ToDouble(Console.ReadLine() ;
+int  count = 0;
+
+do
+{
+    double value1 = Convert.ToDouble(Console.ReadLine()) ;
+    double value2 = Convert.ToDouble(Console.ReadLine()) ;
+
+    string operation = Console.ReadLine();
+    switch (operator)
+        {
+        case "+":
+                Console.WriteLine(value1 + value2);
+                break;
+            case "-":
+                Console.WriteLine(value1 - value2);
+                break;
+            case "*":
+                Console.WriteLine(value1 * value2);
+                break;
+            case "/":
+                if (value2 != 0)
+                {
+                    Console.WriteLine(value1 / value2);
+                }
+                else
+                {
+                    Console.WriteLine("Error: Division by zero");
+                }
+                break;
+            default:
+                Console.WriteLine("Invalid operation");
+                break;
+
+       
+        }
+
+}
+
+
+
