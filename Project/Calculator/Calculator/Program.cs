@@ -19,7 +19,7 @@ do
 
             string operation = Console.ReadLine();
 
-            opinion = Console.ReadLine();
+           
 
     switch (operation)
             {
@@ -52,9 +52,10 @@ do
 
             count++;
             Console.WriteLine("Do you want to continue? (yes/no)");
-            
+            opinion = Console.ReadLine();
 
-        } while (opinion.ToLower() == "yes");
+
+} while (opinion.ToLower() == "yes");
 
         Console.WriteLine("End of program. You performed " + count + " calculations.");
     
