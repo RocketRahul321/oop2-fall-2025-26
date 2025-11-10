@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MortgageCalculator",
+    "\\MortgageCalculator\\MortgageCalculator"
   ],
+  "SelectedNode": "\\MortgageCalculator\\MortgageCalculator\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

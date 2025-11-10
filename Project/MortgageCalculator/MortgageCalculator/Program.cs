@@ -1,37 +1,144 @@
-﻿
-        using System.Globalization;
+﻿using System;
+using System.Globalization;
 
-          Console.WriteLine("Enter three  values of loan annual ");
+class Program
+{
+    static void Main()
+    {
+        CultureInfo bdCulture = new CultureInfo("bn-BD");
 
-        Console.WriteLine("Enter value of loan (p):");
+        double salary = 0;
+        bool criminalRecord = false;
+        int creditScore = 0;
 
-        double loan = Convert.ToDouble(Console.ReadLine());
+        // salary 
+        while (true)
+        {
+            Console.Write("Please enter the Monthly salary: ");
+            string input = (Console.ReadLine() ?? string.Empty).Trim();
 
-        Console.WriteLine("Enter the value of annual interest rate (r):");
+            if (double.TryParse(input, out salary))
+            {
+                break;
+            }
+            else
+            {
+                Console.WriteLine("Invalid input, please enter a numerical value.");
+            }
+        }
 
-        double annualInterest = Convert.ToDouble(Console.ReadLine());
+        // CreditScore 
+        while (true)
+        {
+            Console.Write("Please enter the Credit score (0-500): ");
+            string input = (Console.ReadLine() ?? string.Empty).Trim();
 
-        Console.WriteLine("Enter the number of payments you have paid (n):");
+            if (int.TryParse(input, out creditScore))
+            {
+                if (creditScore >= 0 && creditScore <= 500)
+                    break;
+                else
+                    Console.WriteLine("Credit score must be between 0 and 500.");
+            }
+            else
+            {
+                Console.WriteLine("Invalid input, please enter a numerical value.");
+            }
+        }
 
-        int numberOfPayments = Convert.ToInt32(Console.ReadLine());
+        //Criminalrecord 
+        while (true)
+        {
+            Console.Write("Do you have a criminal record? (true/false): ");
+            string input = (Console.ReadLine() ?? string.Empty).Trim().ToLower();
 
-       
-        double monthlyInterest = annualInterest / 12 / 100;
+            if (input == "true")
+            {
+                Console.WriteLine("Sorry, you are not eligible for a loan due to criminal record.");
+                return;
+            }
+            else if (input == "false")
+            {
+                criminalRecord = false;
+                break;
+            }
+            else
+            {
+                Console.WriteLine("Invalid input, please enter 'true' or 'false'.");
+            }
+        }
 
-      
-        double monthlyPayment = loan * monthlyInterest / (1 - Math.Pow(1 + monthlyInterest, -numberOfPayments));
+        //Desiredloanamount 
+        double loanAmount;
+        while (true)
+        {
+            Console.Write("Enter your desired loan amount: ");
+            string input = (Console.ReadLine() ?? string.Empty).Trim();
 
-        
-        double totalPaid = monthlyPayment * numberOfPayments;
+            if (double.TryParse(input, out loanAmount))
+            {
+                break;
+            }
+            else
+            {
+                Console.WriteLine("Invalid input, please enter a numerical value.");
+            }
+        }
 
-        double totalInterest = totalPaid - loan;
+        // Annualinterestrate
+        double annualRate;
+        while (true)
+        {
+            Console.Write("Enter annual interest rate (in %): ");
+            string input = (Console.ReadLine() ?? string.Empty).Trim();
 
-        
-        CultureInfo culture = new CultureInfo("bn-BD");
+            if (double.TryParse(input, out annualRate))
+            {
+                break;
+            }
+            else
+            {
+                Console.WriteLine("Invalid input, please enter a numerical value.");
+            }
+        }
 
-        Console.WriteLine($"The monthly mortgage payment is: {monthlyPayment.ToString("C", culture)}");
+        //Loan period in years
+        int years;
+        while (true)
+        {
+            Console.Write("Enter loan period in years: ");
+            string input = (Console.ReadLine() ?? string.Empty).Trim();
 
-        Console.WriteLine($"The total paid is: {totalPaid.ToString("C", culture)}");
+            if (int.TryParse(input, out years))
+            {
+                break;
+            }
+            else
+            {
+                Console.WriteLine("Invalid input, please enter a numerical value.");
+            }
+        }
 
-        Console.WriteLine($"The total interest is: {totalInterest.ToString("C", culture)}");
-    
+        //Calculation
+
+        double monthlyRate = annualRate / 100 / 12;
+
+        int months = years * 12;
+
+        double monthlyPayment = (loanAmount * monthlyRate * Math.Pow(1 + monthlyRate, months)) /
+                                (Math.Pow(1 + monthlyRate, months) - 1);
+
+        double totalPaid = monthlyPayment * months;
+
+        double totalInterest = totalPaid - loanAmount;
+
+        //Output
+        Console.WriteLine("\nMortgage Calculator (Bangladesh)");
+
+        Console.WriteLine($"Monthly Payment: {monthlyPayment.ToString("C", bdCulture)}");
+
+        Console.WriteLine($"Total Paid: {totalPaid.ToString("C", bdCulture)}");
+
+        Console.WriteLine($"Total Interest: {totalInterest.ToString("C", bdCulture)}");
+    }
+}
