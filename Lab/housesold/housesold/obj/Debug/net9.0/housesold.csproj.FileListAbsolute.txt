@@ -1,0 +1,15 @@
+D:\developer\oop2-fall-2025-26\Lab\housesold\housesold\bin\Debug\net9.0\housesold.exe
+D:\developer\oop2-fall-2025-26\Lab\housesold\housesold\bin\Debug\net9.0\housesold.deps.json
+D:\developer\oop2-fall-2025-26\Lab\housesold\housesold\bin\Debug\net9.0\housesold.runtimeconfig.json
+D:\developer\oop2-fall-2025-26\Lab\housesold\housesold\bin\Debug\net9.0\housesold.dll
+D:\developer\oop2-fall-2025-26\Lab\housesold\housesold\bin\Debug\net9.0\housesold.pdb
+D:\developer\oop2-fall-2025-26\Lab\housesold\housesold\obj\Debug\net9.0\housesold.GeneratedMSBuildEditorConfig.editorconfig
+D:\developer\oop2-fall-2025-26\Lab\housesold\housesold\obj\Debug\net9.0\housesold.AssemblyInfoInputs.cache
+D:\developer\oop2-fall-2025-26\Lab\housesold\housesold\obj\Debug\net9.0\housesold.AssemblyInfo.cs
+D:\developer\oop2-fall-2025-26\Lab\housesold\housesold\obj\Debug\net9.0\housesold.csproj.CoreCompileInputs.cache
+D:\developer\oop2-fall-2025-26\Lab\housesold\housesold\obj\Debug\net9.0\housesold.sourcelink.json
+D:\developer\oop2-fall-2025-26\Lab\housesold\housesold\obj\Debug\net9.0\housesold.dll
+D:\developer\oop2-fall-2025-26\Lab\housesold\housesold\obj\Debug\net9.0\refint\housesold.dll
+D:\developer\oop2-fall-2025-26\Lab\housesold\housesold\obj\Debug\net9.0\housesold.pdb
+D:\developer\oop2-fall-2025-26\Lab\housesold\housesold\obj\Debug\net9.0\housesold.genruntimeconfig.cache
+D:\developer\oop2-fall-2025-26\Lab\housesold\housesold\obj\Debug\net9.0\ref\housesold.dll
