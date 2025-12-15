@@ -1,0 +1,15 @@
+D:\developer\oop2-fall-2025-26\Lab\interfaceindexer\interfaceindexer\bin\Debug\net9.0\interfaceindexer.exe
+D:\developer\oop2-fall-2025-26\Lab\interfaceindexer\interfaceindexer\bin\Debug\net9.0\interfaceindexer.deps.json
+D:\developer\oop2-fall-2025-26\Lab\interfaceindexer\interfaceindexer\bin\Debug\net9.0\interfaceindexer.runtimeconfig.json
+D:\developer\oop2-fall-2025-26\Lab\interfaceindexer\interfaceindexer\bin\Debug\net9.0\interfaceindexer.dll
+D:\developer\oop2-fall-2025-26\Lab\interfaceindexer\interfaceindexer\bin\Debug\net9.0\interfaceindexer.pdb
+D:\developer\oop2-fall-2025-26\Lab\interfaceindexer\interfaceindexer\obj\Debug\net9.0\interfaceindexer.GeneratedMSBuildEditorConfig.editorconfig
+D:\developer\oop2-fall-2025-26\Lab\interfaceindexer\interfaceindexer\obj\Debug\net9.0\interfaceindexer.AssemblyInfoInputs.cache
+D:\developer\oop2-fall-2025-26\Lab\interfaceindexer\interfaceindexer\obj\Debug\net9.0\interfaceindexer.AssemblyInfo.cs
+D:\developer\oop2-fall-2025-26\Lab\interfaceindexer\interfaceindexer\obj\Debug\net9.0\interfaceindexer.csproj.CoreCompileInputs.cache
+D:\developer\oop2-fall-2025-26\Lab\interfaceindexer\interfaceindexer\obj\Debug\net9.0\interfaceindexer.sourcelink.json
+D:\developer\oop2-fall-2025-26\Lab\interfaceindexer\interfaceindexer\obj\Debug\net9.0\interfaceindexer.dll
+D:\developer\oop2-fall-2025-26\Lab\interfaceindexer\interfaceindexer\obj\Debug\net9.0\refint\interfaceindexer.dll
+D:\developer\oop2-fall-2025-26\Lab\interfaceindexer\interfaceindexer\obj\Debug\net9.0\interfaceindexer.pdb
+D:\developer\oop2-fall-2025-26\Lab\interfaceindexer\interfaceindexer\obj\Debug\net9.0\interfaceindexer.genruntimeconfig.cache
+D:\developer\oop2-fall-2025-26\Lab\interfaceindexer\interfaceindexer\obj\Debug\net9.0\ref\interfaceindexer.dll
