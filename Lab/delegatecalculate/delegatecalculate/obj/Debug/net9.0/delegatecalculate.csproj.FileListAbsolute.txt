@@ -1,0 +1,15 @@
+D:\developer\oop2-fall-2025-26\Lab\delegatecalculate\delegatecalculate\obj\Debug\net9.0\delegatecalculate.GeneratedMSBuildEditorConfig.editorconfig
+D:\developer\oop2-fall-2025-26\Lab\delegatecalculate\delegatecalculate\obj\Debug\net9.0\delegatecalculate.AssemblyInfoInputs.cache
+D:\developer\oop2-fall-2025-26\Lab\delegatecalculate\delegatecalculate\obj\Debug\net9.0\delegatecalculate.AssemblyInfo.cs
+D:\developer\oop2-fall-2025-26\Lab\delegatecalculate\delegatecalculate\obj\Debug\net9.0\delegatecalculate.csproj.CoreCompileInputs.cache
+D:\developer\oop2-fall-2025-26\Lab\delegatecalculate\delegatecalculate\obj\Debug\net9.0\delegatecalculate.sourcelink.json
+D:\developer\oop2-fall-2025-26\Lab\delegatecalculate\delegatecalculate\bin\Debug\net9.0\delegatecalculate.exe
+D:\developer\oop2-fall-2025-26\Lab\delegatecalculate\delegatecalculate\bin\Debug\net9.0\delegatecalculate.deps.json
+D:\developer\oop2-fall-2025-26\Lab\delegatecalculate\delegatecalculate\bin\Debug\net9.0\delegatecalculate.runtimeconfig.json
+D:\developer\oop2-fall-2025-26\Lab\delegatecalculate\delegatecalculate\bin\Debug\net9.0\delegatecalculate.dll
+D:\developer\oop2-fall-2025-26\Lab\delegatecalculate\delegatecalculate\bin\Debug\net9.0\delegatecalculate.pdb
+D:\developer\oop2-fall-2025-26\Lab\delegatecalculate\delegatecalculate\obj\Debug\net9.0\delegatecalculate.dll
+D:\developer\oop2-fall-2025-26\Lab\delegatecalculate\delegatecalculate\obj\Debug\net9.0\refint\delegatecalculate.dll
+D:\developer\oop2-fall-2025-26\Lab\delegatecalculate\delegatecalculate\obj\Debug\net9.0\delegatecalculate.pdb
+D:\developer\oop2-fall-2025-26\Lab\delegatecalculate\delegatecalculate\obj\Debug\net9.0\delegatecalculate.genruntimeconfig.cache
+D:\developer\oop2-fall-2025-26\Lab\delegatecalculate\delegatecalculate\obj\Debug\net9.0\ref\delegatecalculate.dll
